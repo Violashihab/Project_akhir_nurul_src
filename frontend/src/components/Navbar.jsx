@@ -60,6 +60,13 @@ const Navbar = ({ onCategorySelect }) => {
                   Contact
                 </Link>
                 <Link
+                  to="/about"
+                  className="block px-4 py-2 text-gray-900 hover:bg-black/10"
+                  onClick={() => setDropdownOpen(false)}
+                >
+                  About Us
+                </Link>
+                <Link
                   to="/login"
                   className="block px-4 py-2 text-gray-900 hover:bg-black/10"
                   onClick={() => setDropdownOpen(false)}
